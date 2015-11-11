@@ -1,0 +1,23 @@
+Please enter a file name: 
+timedate.txt
+Exception: File not found.
+
+Please enter a file name: 
+timedata.txt
+
+24:0:0
+Exception: The hour must range between 0 and 23
+
+17:0:60
+Exception: Seconds must range between 0 and 59
+
+11:-1:0
+Exception: Minutes must range between 0 and 59
+
+Twelve 11 10
+Exception: Input mismatch
+
+6:25:00 P.M.
+
+7:11:00 A.M.
+BUILD SUCCESSFUL (total time: 12 seconds)
